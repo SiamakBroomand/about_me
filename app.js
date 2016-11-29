@@ -8,7 +8,7 @@ alert('I am alive!!!');
 // y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input //and accommodate users entering all-caps Y/N or YES/NO answers, too.
 //Useful and descriptive console.log() messages in the JS are well written and correctly displaying to the
 //browser console for each question of the guessing game.
-var question1 = prompt ('Does Sam have any cats?').toLowerCase();
+var userresponse1 = prompt ('Does Sam have any cats?').toLowerCase();
 
 //if (condition is true) {
   //do sth;
@@ -20,10 +20,10 @@ var question1 = prompt ('Does Sam have any cats?').toLowerCase();
   //and mayebe yet another thing;
 //}
 
-if (question1 === 'yes' || question1 === 'y') {
+if (userresponse1 === 'yes' || userresponse1 === 'y') {
   alert('Yes, Sam has three cats!');
-} else if (question1 === 'no' || question1 === 'n'){
+} else if (userresponse1 === 'no' || userresponse1 === 'n'){
   alert('sorry, you are wrong! He has three cats!');
 } else {
-  alert(' Sorry you have no idea about him!!');
+  alert(' Sorry you have no idea about him!!')
 }
