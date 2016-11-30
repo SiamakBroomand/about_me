@@ -2,3 +2,29 @@
   outline: 1px dotted orange;
   color: blue;
 }
+
+h1 {
+  font-family: Arial;
+  color: green;
+  font-size: 25px;
+  text-align: center;
+}
+#Objective {
+  color: black;
+  font-family:cursive;
+  font-size: 25px;
+}
+#first {
+  font-size: 15px;
+  font-family:fantasy;
+  color: black;
+}
+#Education {
+  color: red;
+  font-size:25px;
+}
+#education {
+  color: black;
+  font-family:sans-serif;
+  font-size: 15px;
+}
