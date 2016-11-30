@@ -1,6 +1,6 @@
 'use strict';
 
-alert('I am alive!!!');
+alert('This is all about you!!!');
 //Design a guessing game about you that involves FIVE yes/no questions. Be creative and fun and whimsical.
 // Or not. It's up to you! It's your project!
 //For this stage of the buiiding of this project, DO NOT USE FUNCTIONS! We'll refactor later.
@@ -8,22 +8,50 @@ alert('I am alive!!!');
 // y/n or yes/no responses, with either .toUpperCase() or .toLowerCase() used to validate the user input //and accommodate users entering all-caps Y/N or YES/NO answers, too.
 //Useful and descriptive console.log() messages in the JS are well written and correctly displaying to the
 //browser console for each question of the guessing game.
-var userresponse1 = prompt ('Does Sam have any cats?').toLowerCase();
 
-//if (condition is true) {
-  //do sth;
-  //mayebe do something more;
-  //etc. untile done;
-
-// } else {
-  //do othe thing;
-  //and mayebe yet another thing;
-//}
+var userresponse1 = prompt ('Have you been to school?').toLowerCase();
 
 if (userresponse1 === 'yes' || userresponse1 === 'y') {
-  alert('Yes, Sam has three cats!');
+  alert('Seems you are literate :)');
 } else if (userresponse1 === 'no' || userresponse1 === 'n'){
-  alert('sorry, you are wrong! He has three cats!');
+  alert('Are you telling the truth?!');
 } else {
-  alert(' Sorry you have no idea about him!!')
+  alert('Try to answer yes or no next time!')
+}
+
+var userResponse2 = prompt ('Did you like school?').toLowerCase();
+
+if (userResponse2 === 'yes' || userResponse2 === 'y'){
+  alert('You must have had a lot of fun in there');
+} else if (userResponse2 === 'no' || userResponse2 === 'n'){
+  alert('That must have been tough to go to school everyday!');
+} else {
+  alert('Think a little more about it.');
+}
+
+var userResponse3 = prompt ('Do you have enough experience in coding?').toLowerCase();
+if (userResponse3 === 'yes' || userResponse3 === 'y') {
+  alert('I hope you are not a beginner!');
+} else if (userResponse3 === 'no' || userResponse3 === 'n') {
+  alert('No worries, not everybody knows coding!');
+} else {
+  alert('You\'d better think about takign some coding classes.');
+}
+
+var userResponse4 = prompt ('Are you looking for a valuable job?').toLowerCase();
+if(userResponse4 === 'yes' || userResponse4 === 'y'){
+  alert('Bravo, You are among the ones who want a change.');
+} else if (userResponse4 === 'no' || userResponse4 ==='n') {
+  alert('Do what you are doing and be on the HOPE PLAN');
+} else {
+  alert('People are different!!!')
+}
+
+var userResponse5 = prompt ('Do you consider yourself hardworking and ambitious?').toLowerCase();
+if (userResponse5 === 'yes' || userResponse5 ==='y'){
+  alert('You are the right person to make your life.');
+} else if (userResponse5 === 'no' || userResponse5 === 'n'){
+  alert('Read some success stories!!');
+} else {
+  alert('Be more active!!!');
 }
