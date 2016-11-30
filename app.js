@@ -37,6 +37,7 @@ if(userResponse4 === 'yes' || userResponse4 === 'y'){
   alert('Bravo, You are among the ones who want a change.');
 } else if (userResponse4 === 'no' || userResponse4 ==='n') {
   alert('Do what you are doing and be on the HOPE PLAN');
+  console.log(userResponse4 + ' never works. ');
 } else {
   alert('People are different!!!')
 }

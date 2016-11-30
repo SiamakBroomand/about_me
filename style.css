@@ -1,30 +1,65 @@
 * {
   outline: 1px dotted orange;
-  color: blue;
+  color: black;
 }
 
 h1 {
   font-family: Arial;
-  color: green;
+  color: blue;
   font-size: 25px;
   text-align: center;
 }
 #Objective {
   color: black;
-  font-family:cursive;
+  font-family:Arial;
   font-size: 25px;
+  text-align: center;
 }
 #first {
   font-size: 15px;
-  font-family:fantasy;
+  font-family:cursive;;
   color: black;
 }
 #Education {
-  color: red;
+  color: black;
   font-size:25px;
+  text-align: center;
+  font-family: Arial;
 }
 #education {
   color: black;
-  font-family:sans-serif;
+  font-family:cursive;;
   font-size: 15px;
+}
+#job{
+  text-align: center;
+  color:black;
+  fon-size:25px;
+}
+#Job{
+  color:black;
+  font-family:cursive;
+  font-size:15px;
+}
+#hobbies {
+  color: black;
+  font-size:25px;
+  text-align: center;
+  font-family: Arial;
+}
+tr {
+  color: black;
+  font-size:15px;
+  font-family: cursive;
+}
+#goal{
+  text-align: center;
+  color:black;
+  font-size: 25px;
+  font-family:Arial;
+}
+#g{
+  color: black;
+  font-size:15px;
+  font-family:cursive;
 }
