@@ -112,8 +112,3 @@ while (counter1 < 6) {
 }
 document.getElementById('response').innerHTML = rightAnswers;
 alert('you have ' + rightAnswers + 'correct answers');
-//if (userResponse1=== rightAnswers && userResponse2 === rightAnswers && userResponse3 === rightAnswers && userResponse4 === rightAnswers && userResponse5 === rightAnswers && userResponse6 === rightAnswers && userResponse7 === rightAnswers ){
-  //alert('You have ' + rightAnswers + 'answers');
-//} else if (userResponse1 !== rightAnswers && userResponse2!== rightAnswers && userResponse3!== rightAnswers && userResponse4 !== rightAnswers && userResponse5 !== rightAnswers && userResponse6!== rightAnswers && userResponse7 !== rightAnswers){
-  //alert('you got some wrong answers')
-//}
