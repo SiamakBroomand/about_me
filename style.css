@@ -1,6 +1,11 @@
 * {
   outline: 1px dotted orange;
   color: black;
+  background-color: green;
+}
+img {
+  width:200px;
+  height:200px;
 }
 
 h1 {
@@ -62,4 +67,12 @@ tr {
   color: black;
   font-size:15px;
   font-family:cursive;
+}
+li {
+  font-family: cursive;
+}
+ol{
+  text-align: center;
+  font-family: Arial;
+  font-size: 25px;
 }

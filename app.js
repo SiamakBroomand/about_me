@@ -131,5 +131,6 @@ function question7 (){
 }
 question7();
 
+
 document.getElementById('response').innerHTML = rightAnswers;
 alert('you have ' + rightAnswers + 'correct answers');
