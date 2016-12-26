@@ -1,18 +1,5 @@
 'use strict';
 
-//declare a variable called `rightAnswers` or the like at the top of your JS and assign it
-// a value of 0.
-
-//Every time a user gets a correct answer, in the same spot where you alert them that they got
-//a right answer, add one to that variable.
-
-//After the last question, that variable will hold the number of questions they got right.
-//if (user got a right answer) {
-  //tell them so;
-  //add one to their tally of correct answers;
-//} else {
-  //tell them they got the wrong answer;
-//}
 alert('This is all about you!!!');
 alert('We are going to answer a series of yes/no questions.')
 
@@ -27,8 +14,9 @@ function question1(){
     console.log('user said ' + userResponse1 + ' to this question' );
   } else if (userResponse1 === 'no' || userResponse1 === 'n'){
     alert('Are you telling the truth?!');
+    console.log('user said' + userResponse1 + ' to this question');
   } else {
-    alert('Try to answer yes or no next time!')
+    alert('Try to answer yes or no next time!');
   }
 }
 question1();
@@ -39,8 +27,10 @@ function question2(){
   if (userResponse2 === 'yes' || userResponse2 === 'y'){
     alert('You must have had a lot of fun in there');
     rightAnswers +=1;
+    console.log(userResponse2 + ' is the user response to question 2');
   } else if (userResponse2 === 'no' || userResponse2 === 'n'){
     alert('That must have been tough to go to school everyday!');
+    console.log(userResponse2 + ' is the response');
   } else {
     alert('Think a little more about it.');
   }
@@ -52,6 +42,7 @@ function question3(){
   if (userResponse3 === 'yes' || userResponse3 === 'y') {
     alert('I hope you are not a beginner!');
     rightAnswers += 1;
+    console.log('user respones 3 is ' + userResponse3);
   } else if (userResponse3 === 'no' || userResponse3 === 'n') {
     alert('No worries, not everybody knows coding!');
   } else {
@@ -65,6 +56,7 @@ function question4(){
   if(userResponse4 === 'yes' || userResponse4 === 'y'){
     alert('Bravo, You are among the ones who want a change.');
     rightAnswers +=1;
+    console.log('user respones 4 is ' + userResponse4);
   } else if (userResponse4 === 'no' || userResponse4 ==='n') {
     alert('Do what you are doing and be on the HOPE PLAN');
     console.log(userResponse4 + ' never works. ');
@@ -79,6 +71,7 @@ function question5(){
   if (userResponse5 === 'yes' || userResponse5 ==='y'){
     alert('You are the right person to make your life.');
     rightAnswers+=1;
+    console.log('user respones 5 is ' + userResponse5);
   } else if (userResponse5 === 'no' || userResponse5 === 'n'){
     alert('Read some success stories!!');
   } else {
